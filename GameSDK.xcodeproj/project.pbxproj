@@ -18,9 +18,13 @@
 		E77FBAF223F289F000A58FD4 /* APIServiceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAE823F289F000A58FD4 /* APIServiceObject.swift */; };
 		E77FBAF323F289F000A58FD4 /* APIRequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAE923F289F000A58FD4 /* APIRequestProvider.swift */; };
 		E77FBAF423F289F000A58FD4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAEA23F289F000A58FD4 /* Extension.swift */; };
+		F86898003629AA8EFE5E1273 /* Pods_GameSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BFCB58D46206DBAE74E692 /* Pods_GameSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33801FE4659AA753F8CCDE2C /* Pods-GameSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameSDK.release.xcconfig"; path = "Target Support Files/Pods-GameSDK/Pods-GameSDK.release.xcconfig"; sourceTree = "<group>"; };
+		5392AD8AF58CC91D620DBBE3 /* Pods-GameSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameSDK.debug.xcconfig"; path = "Target Support Files/Pods-GameSDK/Pods-GameSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		90BFCB58D46206DBAE74E692 /* Pods_GameSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77FBAD423F2899A00A58FD4 /* GameSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GameSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77FBAD723F2899A00A58FD4 /* GameSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameSDK.h; sourceTree = "<group>"; };
 		E77FBAD823F2899A00A58FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,17 +45,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86898003629AA8EFE5E1273 /* Pods_GameSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B39BB182D36F4DE2D66E845C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5392AD8AF58CC91D620DBBE3 /* Pods-GameSDK.debug.xcconfig */,
+				33801FE4659AA753F8CCDE2C /* Pods-GameSDK.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D5B0E59BD7DB4569D6BEDEF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90BFCB58D46206DBAE74E692 /* Pods_GameSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E77FBACA23F2899A00A58FD4 = {
 			isa = PBXGroup;
 			children = (
 				E77FBAD623F2899A00A58FD4 /* GameSDK */,
 				E77FBAD523F2899A00A58FD4 /* Products */,
+				B39BB182D36F4DE2D66E845C /* Pods */,
+				D5B0E59BD7DB4569D6BEDEF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,10 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E77FBADC23F2899A00A58FD4 /* Build configuration list for PBXNativeTarget "GameSDK" */;
 			buildPhases = (
+				F04C7D4E9F5593A1DE761B95 /* [CP] Check Pods Manifest.lock */,
 				E77FBACF23F2899A00A58FD4 /* Headers */,
 				E77FBAD023F2899A00A58FD4 /* Sources */,
 				E77FBAD123F2899A00A58FD4 /* Frameworks */,
 				E77FBAD223F2899A00A58FD4 /* Resources */,
+				8620D97D07BF5A66DB005128 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,6 +198,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8620D97D07BF5A66DB005128 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameSDK/Pods-GameSDK-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameSDK/Pods-GameSDK-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameSDK/Pods-GameSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F04C7D4E9F5593A1DE761B95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E77FBAD023F2899A00A58FD4 /* Sources */ = {
@@ -315,6 +384,7 @@
 		};
 		E77FBADD23F2899A00A58FD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5392AD8AF58CC91D620DBBE3 /* Pods-GameSDK.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -341,6 +411,7 @@
 		};
 		E77FBADE23F2899A00A58FD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33801FE4659AA753F8CCDE2C /* Pods-GameSDK.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
