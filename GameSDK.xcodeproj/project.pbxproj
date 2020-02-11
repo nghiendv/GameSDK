@@ -3,21 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		E77FBAD923F2899A00A58FD4 /* GameSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E77FBAD723F2899A00A58FD4 /* GameSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E77FBAEB23F289F000A58FD4 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAE023F289F000A58FD4 /* Login.swift */; };
-		E77FBAEC23F289F000A58FD4 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAE123F289F000A58FD4 /* IAPHelper.swift */; };
-		E77FBAED23F289F000A58FD4 /* SocialStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAE223F289F000A58FD4 /* SocialStruct.swift */; };
-		E77FBAEE23F289F000A58FD4 /* FacebookLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAE323F289F000A58FD4 /* FacebookLogin.swift */; };
-		E77FBAEF23F289F000A58FD4 /* PaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAE423F289F000A58FD4 /* PaymentService.swift */; };
-		E77FBAF023F289F000A58FD4 /* GoogleLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAE523F289F000A58FD4 /* GoogleLogin.swift */; };
-		E77FBAF123F289F000A58FD4 /* APIServiceAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAE723F289F000A58FD4 /* APIServiceAgent.swift */; };
-		E77FBAF223F289F000A58FD4 /* APIServiceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAE823F289F000A58FD4 /* APIServiceObject.swift */; };
-		E77FBAF323F289F000A58FD4 /* APIRequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAE923F289F000A58FD4 /* APIRequestProvider.swift */; };
-		E77FBAF423F289F000A58FD4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAEA23F289F000A58FD4 /* Extension.swift */; };
+		E77FBB0223F2993400A58FD4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAF823F2993400A58FD4 /* Extension.swift */; };
+		E77FBB0323F2993400A58FD4 /* APIRequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAF923F2993400A58FD4 /* APIRequestProvider.swift */; };
+		E77FBB0423F2993400A58FD4 /* GoogleLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAFA23F2993400A58FD4 /* GoogleLogin.swift */; };
+		E77FBB0523F2993400A58FD4 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAFB23F2993400A58FD4 /* Login.swift */; };
+		E77FBB0623F2993400A58FD4 /* APIServiceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAFC23F2993400A58FD4 /* APIServiceObject.swift */; };
+		E77FBB0723F2993400A58FD4 /* SocialStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAFD23F2993400A58FD4 /* SocialStruct.swift */; };
+		E77FBB0823F2993400A58FD4 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAFE23F2993400A58FD4 /* IAPHelper.swift */; };
+		E77FBB0923F2993400A58FD4 /* APIServiceAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAFF23F2993400A58FD4 /* APIServiceAgent.swift */; };
+		E77FBB0A23F2993400A58FD4 /* PaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBB0023F2993400A58FD4 /* PaymentService.swift */; };
+		E77FBB0B23F2993400A58FD4 /* FacebookLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBB0123F2993400A58FD4 /* FacebookLogin.swift */; };
 		F86898003629AA8EFE5E1273 /* Pods_GameSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BFCB58D46206DBAE74E692 /* Pods_GameSDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,16 +28,16 @@
 		E77FBAD423F2899A00A58FD4 /* GameSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GameSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77FBAD723F2899A00A58FD4 /* GameSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameSDK.h; sourceTree = "<group>"; };
 		E77FBAD823F2899A00A58FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E77FBAE023F289F000A58FD4 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		E77FBAE123F289F000A58FD4 /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
-		E77FBAE223F289F000A58FD4 /* SocialStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialStruct.swift; sourceTree = "<group>"; };
-		E77FBAE323F289F000A58FD4 /* FacebookLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLogin.swift; sourceTree = "<group>"; };
-		E77FBAE423F289F000A58FD4 /* PaymentService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentService.swift; sourceTree = "<group>"; };
-		E77FBAE523F289F000A58FD4 /* GoogleLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleLogin.swift; sourceTree = "<group>"; };
-		E77FBAE723F289F000A58FD4 /* APIServiceAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceAgent.swift; sourceTree = "<group>"; };
-		E77FBAE823F289F000A58FD4 /* APIServiceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceObject.swift; sourceTree = "<group>"; };
-		E77FBAE923F289F000A58FD4 /* APIRequestProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestProvider.swift; sourceTree = "<group>"; };
-		E77FBAEA23F289F000A58FD4 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		E77FBAF823F2993400A58FD4 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		E77FBAF923F2993400A58FD4 /* APIRequestProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestProvider.swift; sourceTree = "<group>"; };
+		E77FBAFA23F2993400A58FD4 /* GoogleLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleLogin.swift; sourceTree = "<group>"; };
+		E77FBAFB23F2993400A58FD4 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		E77FBAFC23F2993400A58FD4 /* APIServiceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceObject.swift; sourceTree = "<group>"; };
+		E77FBAFD23F2993400A58FD4 /* SocialStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialStruct.swift; sourceTree = "<group>"; };
+		E77FBAFE23F2993400A58FD4 /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		E77FBAFF23F2993400A58FD4 /* APIServiceAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceAgent.swift; sourceTree = "<group>"; };
+		E77FBB0023F2993400A58FD4 /* PaymentService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentService.swift; sourceTree = "<group>"; };
+		E77FBB0123F2993400A58FD4 /* FacebookLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLogin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,6 @@
 				5392AD8AF58CC91D620DBBE3 /* Pods-GameSDK.debug.xcconfig */,
 				33801FE4659AA753F8CCDE2C /* Pods-GameSDK.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -91,36 +90,20 @@
 		E77FBAD623F2899A00A58FD4 /* GameSDK */ = {
 			isa = PBXGroup;
 			children = (
-				E77FBADF23F289F000A58FD4 /* LoginSocial */,
-				E77FBAE623F289F000A58FD4 /* Service */,
+				E77FBAF923F2993400A58FD4 /* APIRequestProvider.swift */,
+				E77FBAFF23F2993400A58FD4 /* APIServiceAgent.swift */,
+				E77FBAFC23F2993400A58FD4 /* APIServiceObject.swift */,
+				E77FBAF823F2993400A58FD4 /* Extension.swift */,
+				E77FBB0123F2993400A58FD4 /* FacebookLogin.swift */,
+				E77FBAFA23F2993400A58FD4 /* GoogleLogin.swift */,
+				E77FBAFE23F2993400A58FD4 /* IAPHelper.swift */,
+				E77FBAFB23F2993400A58FD4 /* Login.swift */,
+				E77FBB0023F2993400A58FD4 /* PaymentService.swift */,
+				E77FBAFD23F2993400A58FD4 /* SocialStruct.swift */,
 				E77FBAD723F2899A00A58FD4 /* GameSDK.h */,
 				E77FBAD823F2899A00A58FD4 /* Info.plist */,
 			);
 			path = GameSDK;
-			sourceTree = "<group>";
-		};
-		E77FBADF23F289F000A58FD4 /* LoginSocial */ = {
-			isa = PBXGroup;
-			children = (
-				E77FBAE023F289F000A58FD4 /* Login.swift */,
-				E77FBAE123F289F000A58FD4 /* IAPHelper.swift */,
-				E77FBAE223F289F000A58FD4 /* SocialStruct.swift */,
-				E77FBAE323F289F000A58FD4 /* FacebookLogin.swift */,
-				E77FBAE423F289F000A58FD4 /* PaymentService.swift */,
-				E77FBAE523F289F000A58FD4 /* GoogleLogin.swift */,
-			);
-			path = LoginSocial;
-			sourceTree = "<group>";
-		};
-		E77FBAE623F289F000A58FD4 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				E77FBAE723F289F000A58FD4 /* APIServiceAgent.swift */,
-				E77FBAE823F289F000A58FD4 /* APIServiceObject.swift */,
-				E77FBAE923F289F000A58FD4 /* APIRequestProvider.swift */,
-				E77FBAEA23F289F000A58FD4 /* Extension.swift */,
-			);
-			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +151,7 @@
 				TargetAttributes = {
 					E77FBAD323F2899A00A58FD4 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -246,16 +230,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E77FBAEC23F289F000A58FD4 /* IAPHelper.swift in Sources */,
-				E77FBAF323F289F000A58FD4 /* APIRequestProvider.swift in Sources */,
-				E77FBAEE23F289F000A58FD4 /* FacebookLogin.swift in Sources */,
-				E77FBAF023F289F000A58FD4 /* GoogleLogin.swift in Sources */,
-				E77FBAF223F289F000A58FD4 /* APIServiceObject.swift in Sources */,
-				E77FBAF423F289F000A58FD4 /* Extension.swift in Sources */,
-				E77FBAEB23F289F000A58FD4 /* Login.swift in Sources */,
-				E77FBAED23F289F000A58FD4 /* SocialStruct.swift in Sources */,
-				E77FBAEF23F289F000A58FD4 /* PaymentService.swift in Sources */,
-				E77FBAF123F289F000A58FD4 /* APIServiceAgent.swift in Sources */,
+				E77FBB0223F2993400A58FD4 /* Extension.swift in Sources */,
+				E77FBB0323F2993400A58FD4 /* APIRequestProvider.swift in Sources */,
+				E77FBB0923F2993400A58FD4 /* APIServiceAgent.swift in Sources */,
+				E77FBB0423F2993400A58FD4 /* GoogleLogin.swift in Sources */,
+				E77FBB0623F2993400A58FD4 /* APIServiceObject.swift in Sources */,
+				E77FBB0523F2993400A58FD4 /* Login.swift in Sources */,
+				E77FBB0823F2993400A58FD4 /* IAPHelper.swift in Sources */,
+				E77FBB0A23F2993400A58FD4 /* PaymentService.swift in Sources */,
+				E77FBB0723F2993400A58FD4 /* SocialStruct.swift in Sources */,
+				E77FBB0B23F2993400A58FD4 /* FacebookLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5392AD8AF58CC91D620DBBE3 /* Pods-GameSDK.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Y5CAY2QCJJ;
@@ -404,6 +389,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -413,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33801FE4659AA753F8CCDE2C /* Pods-GameSDK.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Y5CAY2QCJJ;
