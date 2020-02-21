@@ -29,8 +29,8 @@ enum APIErrorCode: Int {
 public enum LoginType: Int {
     case facebook   = 1
     case google     = 2
-    case yourId     = 3
-    case deviceId   = 4
+    case deviceId   = 3
+    case yourId     = 4
     
     func stringValue() -> String {
         switch self {
@@ -38,9 +38,9 @@ public enum LoginType: Int {
                 return "1"
             case .google:
                 return "2"
-            case .yourId:
-                return "3"
             case .deviceId:
+                return "3"
+            case .yourId:
                 return "4"
         }
     }
