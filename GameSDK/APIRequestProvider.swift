@@ -68,7 +68,8 @@ class APIRequestProvider: NSObject {
     }
 
     func commonParam() -> [String: String] {
-        let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
+//        let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
+        let version = UIDevice.current.systemVersion
         let deviceOS = "ios"
         
         var param = [String: String]()
