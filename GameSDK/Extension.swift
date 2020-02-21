@@ -26,11 +26,11 @@ enum APIErrorCode: Int {
     case unknow         = 99999
 }
 
-enum LoginType: Int {
+public enum LoginType: Int {
     case facebook   = 1
     case google     = 2
-    case your_id    = 3
-    case device_id  = 4
+    case yourId     = 3
+    case deviceId   = 4
     
     func stringValue() -> String {
         switch self {
@@ -38,9 +38,9 @@ enum LoginType: Int {
                 return "1"
             case .google:
                 return "2"
-            case .your_id:
+            case .yourId:
                 return "3"
-            case .device_id:
+            case .deviceId:
                 return "4"
         }
     }
@@ -58,6 +58,20 @@ enum PaymentType: Int {
                 return "2"
         }
     }
+}
+
+public extension Notification.Name {
+    static let IAPHelperPurchaseNotification = Notification.Name("IAPHelperPurchaseNotification")
+    static let IAPHelperPurchaseSuccessNotification = Notification.Name("IAPHelperPurchaseSuccessNotification")
+    static let IAPHelperPurchaseFailNotification = Notification.Name("IAPHelperPurchaseFailNotification")
+}
+
+public struct SocialUserDetails {
+    public var userId: String = ""
+    public var type: LoginType = .google
+    public var name: String = ""
+    public var email: String = ""
+    public var profilePic: String = ""
 }
 
 extension NSError {

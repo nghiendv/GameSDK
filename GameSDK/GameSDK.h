@@ -2,8 +2,8 @@
 //  GameSDK.h
 //  GameSDK
 //
-//  Created by Đào Văn Nghiên on 2/11/20.
-//  Copyright © 2020 Đào Văn Nghiên. All rights reserved.
+//  Created by nghiendv on 2/17/20.
+//  Copyright © 2020 nghiendv. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double GameSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char GameSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GameSDK/PublicHeader.h>
-
-

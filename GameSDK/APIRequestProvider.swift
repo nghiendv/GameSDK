@@ -12,10 +12,6 @@ import Alamofire
 let kClientVersionHeaderField = "os_version_code"
 let kClientOSHeaderField = "os_type"
 
-// localhost
-//let baseURL = "http://192.168.146.252:9130"
-//let baseURL = "http://m.5dmax.vn/apiv2.php"
-
 // public
 let baseURL = "http://18.138.108.34:8080"
 //let baseURL = "http://192.168.1.59:9009"

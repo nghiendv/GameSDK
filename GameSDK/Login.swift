@@ -17,7 +17,7 @@ public class Login {
     public static let shared = Login()
     var serviceAgent = APIServiceAgent()
     
-    public class func login(type: SocialLoginType, clientID: String = "", viewController: UIViewController, completion: @escaping(String, NSError?) -> Void) {
+    public class func login(type: LoginType, clientID: String = "", viewController: UIViewController, completion: @escaping(String, NSError?) -> Void) {
         switch type {
             case .facebook:
                 FacebookLogin.shared.fbLogin(viewController: viewController) { (isSuccess, result, login_error) in
@@ -49,10 +49,22 @@ public class Login {
                         completion("", login_error)
                     }
                 }
+            case .deviceId:
+                let imei = UIDevice.current.identifierForVendor?.uuidString
+                let request = APIRequestProvider.shareInstance.login(loginType: .deviceId, accessToken: imei!)
+                self.shared.serviceAgent.startRequest(request) { (_ json: JSON, _ error: NSError?) in
+                    if error == nil {
+                        completion("\(json["user_id"])", nil)
+                    } else {
+                        completion("", error)
+                    }
+                }
+            default:
+                break
         }
     }
 
-    public class func logout(type: SocialLoginType) {
+    public class func logout(type: LoginType) {
         switch type {
         case .facebook:
             FacebookLogin.fbLogOut()

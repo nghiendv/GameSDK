@@ -13,7 +13,6 @@
 		E77FBB0423F2993400A58FD4 /* GoogleLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAFA23F2993400A58FD4 /* GoogleLogin.swift */; };
 		E77FBB0523F2993400A58FD4 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAFB23F2993400A58FD4 /* Login.swift */; };
 		E77FBB0623F2993400A58FD4 /* APIServiceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAFC23F2993400A58FD4 /* APIServiceObject.swift */; };
-		E77FBB0723F2993400A58FD4 /* SocialStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAFD23F2993400A58FD4 /* SocialStruct.swift */; };
 		E77FBB0823F2993400A58FD4 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAFE23F2993400A58FD4 /* IAPHelper.swift */; };
 		E77FBB0923F2993400A58FD4 /* APIServiceAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBAFF23F2993400A58FD4 /* APIServiceAgent.swift */; };
 		E77FBB0A23F2993400A58FD4 /* PaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77FBB0023F2993400A58FD4 /* PaymentService.swift */; };
@@ -33,7 +32,6 @@
 		E77FBAFA23F2993400A58FD4 /* GoogleLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleLogin.swift; sourceTree = "<group>"; };
 		E77FBAFB23F2993400A58FD4 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		E77FBAFC23F2993400A58FD4 /* APIServiceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceObject.swift; sourceTree = "<group>"; };
-		E77FBAFD23F2993400A58FD4 /* SocialStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialStruct.swift; sourceTree = "<group>"; };
 		E77FBAFE23F2993400A58FD4 /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
 		E77FBAFF23F2993400A58FD4 /* APIServiceAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceAgent.swift; sourceTree = "<group>"; };
 		E77FBB0023F2993400A58FD4 /* PaymentService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentService.swift; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 				E77FBAFE23F2993400A58FD4 /* IAPHelper.swift */,
 				E77FBAFB23F2993400A58FD4 /* Login.swift */,
 				E77FBB0023F2993400A58FD4 /* PaymentService.swift */,
-				E77FBAFD23F2993400A58FD4 /* SocialStruct.swift */,
 				E77FBAD723F2899A00A58FD4 /* GameSDK.h */,
 				E77FBAD823F2899A00A58FD4 /* Info.plist */,
 			);
@@ -238,7 +235,6 @@
 				E77FBB0523F2993400A58FD4 /* Login.swift in Sources */,
 				E77FBB0823F2993400A58FD4 /* IAPHelper.swift in Sources */,
 				E77FBB0A23F2993400A58FD4 /* PaymentService.swift in Sources */,
-				E77FBB0723F2993400A58FD4 /* SocialStruct.swift in Sources */,
 				E77FBB0B23F2993400A58FD4 /* FacebookLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
